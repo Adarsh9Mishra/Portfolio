@@ -1,0 +1,219 @@
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(10, 5, 65, 0.81);
+     }
+ 
+   header .right li{
+        float: left;
+        display: flex;
+       justify-items: space-between;
+        color: white;
+        font-size: 1.8rem;
+        margin-left: 50px;
+        margin-top: 30px;
+     }
+     header .right li:hover{
+        font-size: 2rem;
+     }
+     .left{
+        float: left;
+        color: white;
+        font-size: 1.9rem;
+     }
+     .headname{
+        margin-left: 100px;
+     }
+     .right{
+        float: right;
+     }
+     .project{
+        margin-right: 80px;
+     }
+     section{
+        background-color: rgba(7, 118, 244, 0.568);
+        width: 99%;
+        height: 400px;
+        margin-left: 6.7px;
+        display: flex;
+        justify-content: space-between;
+     }
+      .left1{
+        margin-top: 50px;
+        margin-left: 140px;
+     }
+     section .left1 p{
+        font-size: 1.2rem;
+        margin-top: 30px;
+     }
+     section .left1 span{
+        font-size: 1.7rem;
+        color: white;
+     }
+     section .left1 h2{
+        font-size: 1.7rem;
+     }
+
+     .name{
+        color: rgb(252, 250, 252);
+     }
+     img{
+        width: 300px;
+        height: 300px;
+        margin-right: 190px;
+        margin-top: 50px;
+        border-radius: 20px;
+     }
+     img:hover{
+        box-shadow: 0px 6px 6px rgb(3, 0, 1);
+     }
+.education{
+width: 100%;
+height: 490px;
+}
+.education h1{
+       text-align: center;
+       color: red;
+}
+.education .edu-left h1 span{
+       color: black;
+}
+.edu-left{
+width: 48%;
+border-right: 2px solid rgb(207, 177, 4);
+float: left;
+}
+.edu-box{
+display: flex;
+justify-content: center;
+}
+.edu-right{
+width: 48%;
+float: right;
+}
+.education h4,h3{
+color: rgb(13, 0, 255);
+}
+.skills h2{
+text-align: center;
+color: red;
+}
+.skill-box{
+align-content: center;
+color: white;
+background-color: black;
+}
+.viewskill{
+margin-left: 450px;
+}
+.percent{
+width: 400px;
+height: 6px;
+background-color:white;
+}
+#html{
+width: 390px;
+height: 6px;
+background-color: blue;
+}
+#css{
+width: 390px;
+height: 6px;
+background-color: blue;
+}
+#javascript{
+width: 230px;
+height: 6px;
+background-color: blue;
+}
+#c{
+width: 300px;
+height: 6px;
+background-color: blue;
+}
+#python{
+width: 290px;
+height: 6px;
+background-color: blue;
+}
+#dsa{
+width: 200px;
+height: 6px;
+background-color: blue;
+}
+#java{
+width: 200px;
+height: 6px;
+background-color: blue;
+}
+#mso{
+width: 400px;
+height: 6px;
+background-color: blue;
+}
+
+.f-container{
+background-color: rgba(13, 247, 72, 0.503);
+text-align: center;
+border-radius: 30px;
+}
+.f-container h2 {
+font-size: 2.5rem;
+color:black;
+padding: 1rem 0;
+}
+.f-container p {
+font-size: 1.4rem;
+text-decoration: none;
+color:black;
+padding: 3px;
+display: block;
+}
+.f-container p:hover {
+transform: translateX(.5rem);
+transition: .5s ease;
+}
+.f-container i {
+padding-right: .5rem;
+color:black;
+}
+.f-container p {
+padding-bottom: 1rem;
+font-size: 1.5rem;
+color:black;
+}
+.f-container textarea {
+width: 30%;
+padding: 1rem;
+color: black;
+background:rgba(240, 255, 240, 0.599);
+border: .2rem solid rgb(31, 30, 30);
+}
+.foot-btn{
+width: 150px;
+height: 50px;
+background-color: blueviolet;
+color: #fbf9f9;
+cursor: pointer;
+margin-top: 2rem;
+border-radius: 8px;
+font-size: 1.5rem;
+}
+.foot-btn:hover{
+transform:translateY(.5rem);
+}
+.f-container .social i {
+margin-top: 1rem;
+font-size: 2rem;
+background: black;
+color: white;
+border-radius: 1rem;
+padding: 1rem;
+margin-bottom: 2rem;
+}
+
+.f-container .social i:hover {
+transform: rotate(360deg);
+transition: 1s ease;
+}
